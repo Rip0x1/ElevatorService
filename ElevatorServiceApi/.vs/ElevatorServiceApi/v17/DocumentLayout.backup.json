@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\controllers\\elevatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:controllers\\elevatorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|c:\\users\\miracle 0x1\\documents\\\u0432\u0430\u0436\u043D\u043E\\roma\\elevatorserviceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{326FACE1-2C12-44BB-82CE-BF3FBE0EB0CE}|ElevatorServiceApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwOMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:15:15.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAcwNQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:14:57.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElevatorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ElevatorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ElevatorsController.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ElevatorsController.cs",
+              "RelativeToolTip": "Controllers\\ElevatorsController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAcwNoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:14:35.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T16:07:39.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ServiceRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiceRequestsController.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\ServiceRequestsController.cs",
+              "RelativeToolTip": "Controllers\\ServiceRequestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:05:02.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartsController.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\PartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartsController.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Controllers\\PartsController.cs",
+              "RelativeToolTip": "Controllers\\PartsController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAmwKMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:26:14.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Documents\\\u0412\u0430\u0436\u043D\u043E\\Roma\\ElevatorServiceApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:08:26.075Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
