@@ -51,3 +51,11 @@
 ## Контакты
 
 Для вопросов или поддержки, пожалуйста, создайте issue в репозитории или свяжитесь с авторами проекта.
+
+## Фото
+![image](https://github.com/user-attachments/assets/e8470cfb-5910-486b-b0ec-187b02c8f2b0)
+![image](https://github.com/user-attachments/assets/de27149e-cf97-4060-9ae5-9aca8f8e12da)
+![image](https://github.com/user-attachments/assets/c5c41ac6-2cf4-446a-acd7-9df1969a9881)
+![image](https://github.com/user-attachments/assets/54aa73e0-ce62-44b4-b893-6a9d841e841f)
+
+
