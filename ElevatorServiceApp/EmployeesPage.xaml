@@ -1,0 +1,113 @@
+﻿<Page x:Class="ElevatorServiceApp.EmployeesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:ElevatorServiceApp"
+      Title="EmployeesPage">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <materialDesign:Card Padding="10" Margin="0 0 0 10">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Добавить сотрудника" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Click="AddEmployee_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Plus" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                                <TextBlock Text="Добавить сотрудника" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+                <Button Content="Обновить" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Click="Refresh_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Refresh" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                                <TextBlock Text="Обновить" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+                <Button Content="Экспорт в Excel" Style="{StaticResource MaterialDesignRaisedButton}" Margin="5" Click="ExportToExcel_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="FileExcel" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                                <TextBlock Text="Экспорт в Excel" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+            </StackPanel>
+        </materialDesign:Card>
+
+        <materialDesign:Card Grid.Row="1" Padding="10" Margin="0 0 0 10">
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="SearchTextBox" materialDesign:HintAssist.Hint="Поиск по имени, фамилии или должности" Width="240" Margin="5" TextChanged="SearchTextBox_TextChanged"/>
+            </StackPanel>
+        </materialDesign:Card>
+
+        <Grid Grid.Row="2">
+            <DataGrid x:Name="EmployeesGrid" AutoGenerateColumns="False" IsReadOnly="True" Margin="0 10 0 0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}"/>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                    <DataGridTextColumn Header="Должность" Binding="{Binding Position}"/>
+                    <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Content="Редактировать" Style="{StaticResource MaterialDesignFlatButton}" Click="EditEmployee_Click" Margin="5">
+                                        <Button.ContentTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <materialDesign:PackIcon Kind="Edit" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                                                    <TextBlock Text="Редактировать" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </Button.ContentTemplate>
+                                    </Button>
+                                    <Button Content="Удалить" Style="{StaticResource MaterialDesignFlatButton}" Click="DeleteEmployee_Click" Margin="5">
+                                        <Button.ContentTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <materialDesign:PackIcon Kind="Delete" Margin="0 0 5 0" VerticalAlignment="Center"/>
+                                                    <TextBlock Text="Удалить" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </Button.ContentTemplate>
+                                    </Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <materialDesign:DialogHost x:Name="EmployeeDialog" Grid.RowSpan="3">
+            <materialDesign:DialogHost.DialogContent>
+                <StackPanel Margin="20" Width="400">
+                    <TextBlock x:Name="DialogTitle" Text="Новый сотрудник" Style="{StaticResource MaterialDesignHeadline6TextBlock}" Margin="0 0 0 20"/>
+                    <TextBox x:Name="FirstNameTextBox" materialDesign:HintAssist.Hint="Имя" Margin="0 10"/>
+                    <TextBox x:Name="LastNameTextBox" materialDesign:HintAssist.Hint="Фамилия" Margin="0 10"/>
+                    <TextBox x:Name="PositionTextBox" materialDesign:HintAssist.Hint="Должность" Margin="0 10"/>
+                    <TextBox x:Name="PhoneTextBox" materialDesign:HintAssist.Hint="Телефон" Margin="0 10"/>
+                    <TextBox x:Name="EmailTextBox" materialDesign:HintAssist.Hint="Email" Margin="0 10"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 20 0 0">
+                        <Button Content="Сохранить" Style="{StaticResource MaterialDesignRaisedButton}" Click="SaveEmployee_Click" Margin="5"/>
+                        <Button Content="Отмена" Style="{StaticResource MaterialDesignFlatButton}" Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}" Margin="5"/>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</Page>
