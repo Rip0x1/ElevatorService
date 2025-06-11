@@ -1,13 +1,14 @@
-﻿using System;
+﻿using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Office2016.Excel;
+using Microsoft.Win32;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using Newtonsoft.Json;
-using ClosedXML.Excel;
-using Microsoft.Win32;
 
 namespace ElevatorServiceApp
 {
@@ -31,6 +32,11 @@ namespace ElevatorServiceApp
                 ElevatorsGrid.IsEnabled = false;
                 var response = await _httpClient.GetStringAsync(ApiBaseUrl);
                 _allElevators = JsonConvert.DeserializeObject<List<Elevator>>(response);
+
+                var clientsResponse = await _httpClient.GetStringAsync("https://localhost:7258/api/Clients");
+                var clients = JsonConvert.DeserializeObject<List<Client>>(clientsResponse);
+                ClientIdComboBox.ItemsSource = clients;
+
                 ApplyFiltersAndSearch();
             }
             catch (Exception ex)
@@ -78,6 +84,7 @@ namespace ElevatorServiceApp
             _editingElevator = null;
             DialogTitle.Text = "Новый лифт";
             SerialNumberTextBox.Text = "";
+            ClientIdComboBox.SelectedIndex = -1;
             ModelTextBox.Text = "";
             StatusComboBox.SelectedIndex = -1;
             InstallationDatePicker.SelectedDate = null;
@@ -90,6 +97,7 @@ namespace ElevatorServiceApp
             {
                 _editingElevator = elevator;
                 DialogTitle.Text = "Редактировать лифт";
+                ClientIdComboBox.SelectedValue = elevator.ClientId;
                 SerialNumberTextBox.Text = elevator.SerialNumber;
                 ModelTextBox.Text = elevator.Model;
                 StatusComboBox.SelectedItem = StatusComboBox.Items.Cast<ComboBoxItem>().FirstOrDefault(x => x.Content.ToString() == elevator.Status) ?? StatusComboBox.Items[0];
@@ -107,6 +115,13 @@ namespace ElevatorServiceApp
                     MessageBox.Show("Введите серийный номер и модель.");
                     return;
                 }
+
+                if (!(ClientIdComboBox.SelectedItem is Client selectedClient))
+                {
+                    MessageBox.Show("Выберите клиента.");
+                    return;
+                }
+
                 if (InstallationDatePicker.SelectedDate == null)
                 {
                     MessageBox.Show("Выберите дату установки.");
@@ -118,6 +133,7 @@ namespace ElevatorServiceApp
                     ElevatorId = _editingElevator?.ElevatorId ?? 0,
                     SerialNumber = SerialNumberTextBox.Text,
                     Model = ModelTextBox.Text,
+                    ClientId = selectedClient.ClientId,
                     Status = StatusComboBox.SelectedItem is ComboBoxItem statusItem ? statusItem.Content.ToString() : "Active",
                     InstallationDate = InstallationDatePicker.SelectedDate.Value
                 };
@@ -207,7 +223,7 @@ namespace ElevatorServiceApp
                     using (var workbook = new XLWorkbook())
                     {
                         var worksheet = workbook.Worksheets.Add("Elevators");
-                        var headers = new[] { "ID", "Серийный номер", "Модель", "Статус", "Дата установки" };
+                        var headers = new[] { "ID", "Серийный номер", "Клиент", "Модель", "Статус", "Дата установки" };
                         for (int i = 0; i < headers.Length; i++)
                         {
                             worksheet.Cell(1, i + 1).Value = headers[i];
@@ -218,9 +234,10 @@ namespace ElevatorServiceApp
                         {
                             worksheet.Cell(row, 1).Value = elevator.ElevatorId;
                             worksheet.Cell(row, 2).Value = elevator.SerialNumber;
-                            worksheet.Cell(row, 3).Value = elevator.Model;
-                            worksheet.Cell(row, 4).Value = elevator.Status;
-                            worksheet.Cell(row, 5).Value = elevator.InstallationDate.ToString("dd.MM.yyyy");
+                            worksheet.Cell(row, 3).Value = elevator.ClientId;
+                            worksheet.Cell(row, 4).Value = elevator.Model;
+                            worksheet.Cell(row, 5).Value = elevator.Status;
+                            worksheet.Cell(row, 6).Value = elevator.InstallationDate.ToString("dd.MM.yyyy");
                             row++;
                         }
 

@@ -45,3 +45,4 @@ C:\Users\Miracle 0x1\Downloads\ElevatorService-main\ElevatorServiceApp\obj\Relea
 C:\Users\Miracle 0x1\Downloads\ElevatorService-main\ElevatorServiceApp\obj\Release\net8.0-windows\ElevatorServiceApp.pdb
 C:\Users\Miracle 0x1\Downloads\ElevatorService-main\ElevatorServiceApp\obj\Release\net8.0-windows\ElevatorServiceApp.genruntimeconfig.cache
 C:\Users\Miracle 0x1\Downloads\ElevatorService-main\ElevatorServiceApp\obj\Release\net8.0-windows\ref\ElevatorServiceApp.dll
+C:\Users\Miracle 0x1\Downloads\ElevatorService-main\ElevatorServiceApp\obj\Release\net8.0-windows\ElevatorServiceApp.sourcelink.json

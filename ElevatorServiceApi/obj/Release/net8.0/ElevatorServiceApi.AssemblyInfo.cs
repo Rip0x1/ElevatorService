@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElevatorServiceApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bece28d106ce191413c0af5391808dd48e09346b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElevatorServiceApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElevatorServiceApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

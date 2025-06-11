@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\elevatorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:elevatorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\servicerequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:servicerequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\elevatorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:elevatorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\servicerequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:servicerequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,20 +27,16 @@
       "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:employeespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\elevatorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:elevatorspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\servicerequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:servicerequestspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:employeespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\servicerequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:servicerequestspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\elevatorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|solutionrelative:elevatorspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA0DE80-E70C-4F83-93B4-2C1DFAA73064}|ElevatorServiceApp.csproj|c:\\users\\miracle 0x1\\downloads\\elevatorservice-main\\elevatorserviceapp\\partspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -77,7 +77,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,72 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ElevatorsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ElevatorsPage.xaml.cs",
               "RelativeDocumentMoniker": "ElevatorsPage.xaml.cs",
               "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ElevatorsPage.xaml.cs",
               "RelativeToolTip": "ElevatorsPage.xaml.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAUwO8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T16:14:07.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml.cs",
-              "RelativeDocumentMoniker": "ClientsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml.cs",
-              "RelativeToolTip": "ClientsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:12:41.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\Models.cs",
-              "RelativeDocumentMoniker": "Models.cs",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\Models.cs",
-              "RelativeToolTip": "Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:31:34.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PartsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\PartsPage.xaml.cs",
-              "RelativeDocumentMoniker": "PartsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\PartsPage.xaml.cs",
-              "RelativeToolTip": "PartsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:35:09.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceRequestsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml.cs",
-              "RelativeDocumentMoniker": "ServiceRequestsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml.cs",
-              "RelativeToolTip": "ServiceRequestsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:03:34.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -162,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EmployeesPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\EmployeesPage.xaml.cs",
               "RelativeDocumentMoniker": "EmployeesPage.xaml.cs",
               "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\EmployeesPage.xaml.cs",
               "RelativeToolTip": "EmployeesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T16:12:13.535Z",
               "EditorCaption": ""
@@ -176,41 +124,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwDkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T15:57:01.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ServiceRequestsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml",
               "RelativeDocumentMoniker": "ServiceRequestsPage.xaml",
               "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml",
               "RelativeToolTip": "ServiceRequestsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-04T16:03:20.091Z"
+              "WhenOpened": "2025-06-04T16:03:20.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml",
-              "RelativeDocumentMoniker": "ClientsPage.xaml",
-              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml",
-              "RelativeToolTip": "ClientsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-04T16:12:29.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "EmployeesPage.xaml",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\EmployeesPage.xaml",
               "RelativeDocumentMoniker": "EmployeesPage.xaml",
@@ -222,14 +147,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "ElevatorsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ElevatorsPage.xaml",
               "RelativeDocumentMoniker": "ElevatorsPage.xaml",
               "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ElevatorsPage.xaml",
               "RelativeToolTip": "ElevatorsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-04T16:14:01.459Z"
+              "WhenOpened": "2025-06-04T16:14:01.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRequestsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ServiceRequestsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ServiceRequestsPage.xaml.cs",
+              "RelativeToolTip": "ServiceRequestsPage.xaml.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAADwvwQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:03:34.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwDkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:57:01.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PartsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\PartsPage.xaml.cs",
+              "RelativeDocumentMoniker": "PartsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\PartsPage.xaml.cs",
+              "RelativeToolTip": "PartsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:35:09.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\Models.cs",
+              "RelativeDocumentMoniker": "Models.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\Models.cs",
+              "RelativeToolTip": "Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:31:34.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ClientsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml.cs",
+              "RelativeToolTip": "ClientsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:12:41.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml",
+              "RelativeDocumentMoniker": "ClientsPage.xaml",
+              "ToolTip": "C:\\Users\\Miracle 0x1\\Downloads\\ElevatorService-main\\ElevatorServiceApp\\ClientsPage.xaml",
+              "RelativeToolTip": "ClientsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-04T16:12:29.254Z"
             },
             {
               "$type": "Document",

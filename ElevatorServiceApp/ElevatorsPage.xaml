@@ -62,6 +62,7 @@
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding ElevatorId}"/>
                     <DataGridTextColumn Header="Серийный номер" Binding="{Binding SerialNumber}"/>
+                    <DataGridTextColumn Header="Клиент" Binding="{Binding ClientId}"/>
                     <DataGridTextColumn Header="Модель" Binding="{Binding Model}"/>
                     <DataGridTextColumn Header="Статус" Binding="{Binding Status}"/>
                     <DataGridTextColumn Header="Дата установки" Binding="{Binding InstallationDate, StringFormat='dd.MM.yyyy'}"/>
@@ -102,6 +103,7 @@
                 <StackPanel Margin="20" Width="400">
                     <TextBlock x:Name="DialogTitle" Text="Новый лифт" Style="{StaticResource MaterialDesignHeadline6TextBlock}" Margin="0 0 0 20"/>
                     <TextBox x:Name="SerialNumberTextBox" materialDesign:HintAssist.Hint="Серийный номер" Margin="0 10"/>
+                    <ComboBox x:Name="ClientIdComboBox" materialDesign:HintAssist.Hint="Клиент" Margin="0 10" DisplayMemberPath="DisplayName"/>
                     <TextBox x:Name="ModelTextBox" materialDesign:HintAssist.Hint="Модель" Margin="0 10"/>
                     <ComboBox x:Name="StatusComboBox" materialDesign:HintAssist.Hint="Статус" Margin="0 10">
                         <ComboBoxItem Content="Active"/>
